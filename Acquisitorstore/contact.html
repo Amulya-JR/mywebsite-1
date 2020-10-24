@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="shortcut icon" href="images/logoc.jpg" type="image/x-icon">
+      
+    <title>ACQUISITOR</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      .conth3{
+    padding-left: 40px;
+   
+}
+.sep {
+  background-color:black;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(27, 69, 184);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color:white;
+}
+
+input[type=submit] {
+  background-color: #43658b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #158467;
+    color: black;
+}
+
+.containers {
+ 
+  background-color: #ad9d9d;
+  padding: 40px;
+  width: 40%;
+  height:680px;
+  padding-left: 50px;
+  margin-left: 3%;
+    float: left;
+     border: 2px solid rgb(170, 167, 167);
+     border-radius: 20px;
+     
+    
+
+}
+/*contact form ends*/
+/*maps*/
+.maps {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.mapsf{
+    margin-left: 45%;
+}
+
+/*maps ends*/
+/*soc media*/
+.cont {
+    margin-left: 45%
+}
+
+.cont a img{
+  padding-right: 15px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+.site-search {
+    text-align: center;
+    width: 50%;
+    padding-bottom:10%;
+    
+}
+
+.site-search input {
+    width: 50%;
+    height: 30px;
+    padding: 3px 20px;
+    border-radius: 12px;
+    border: 1px solid #2D2926FF;
+    margin: 60px 0px 0px 0px;
+}
+
+.site-search img {
+    
+    width: 25px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 0px; 
+}
+
+.site-search ::placeholder {
+    color: rgba(0, 0, 0, 0.418);
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+</style>
+</head>
+<body>
+   <section id="sec2">
+        <div class="site-logo">
+            <img src="images/logoc.jpg" alt="Logo">
+        </div>
+        <div class="site-name">
+            <h1>ACQUISITOR</h1>
+            <h2>ONLINE STORE</h2>
+        </div>
+        <div class="site-search">
+            <input type="text" placeholder="Search on Acquisitor....">
+            	
+            <img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png" alt="">
+        </div>
+    </section>
+
+     
+    <div class="menu">
+    
+       
+      <a href="contact.html" class="active">Contact Us</a>
+      <a href="aboutus.html">About</a>
+      
+      <div class="dropdown">
+    <button class="dropbtn">Categories
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      
+    </div>
+  </div>
+  
+  
+      <a href="index.html" >Home</a>
+  </div>
+
+ <div class="header">
+  <h1>Contact Us</h1>
+  
+</div>
+<div>
+    <h3 class="conth3">Contact Form</h3>
+
+<div class="containers">
+  <form name="myform" action="" method="" onsubmit="function()">  
+
+    <label for="name">Full Name</label>
+    <input type="text" name="name" id="name"  placeholder="Your full name.." required>
+
+    <label for="phone">Mobile Number</label>
+    <input type="text" name="phone" id="mobile" placeholder="Your registered mobile number.." required >
+    
+    <label for="email">Email address</label>
+    <input type="text" name="email" id="email" placeholder="Your registered email address.." required>
+
+    <label for="problemrt">Problem related to</label>
+    <select id="country" required >
+      <option value="accrelissue">Account related issue</option>
+      <option value="canada">Product related issue</option>
+      <option value="Others">Others (Mention in Enquiry section below)</option>
+    </select>
+    <label for="problemrt">Country</label>
+    <select id="country" required >
+      <option value="accrelissue">India</option>
+      <option value="canada">USA</option>
+      <option value="Others">Others (Mention in Enquiry section below)</option>
+    </select>
+    
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write your query .." style="height:150px" required></textarea>
+
+    <input type="submit" value="submit" id="submit" onclick="function">
+  </form>
+</div>
+    </div>
+   
+<!--Contact form ends-->
+<section>
+  <br><br><br><br><br><br>
+  </section>
+
+<div>
+<div class="mapsf">
+    <h3>Office location</h3>
+    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14376.077865872314!2d-73.879277264103!3d40.757667781624285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1546528920522"  width="500" height="375" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+</div>
+<div class="cont">
+    <h4>Social media handles</h4>
+            
+            <a  href="#"><img src="images/whatsapp-icon.jpg" width="60px" height="auto"></a>
+            <a target="_blank" href="https://www.facebook.com/login.php"><img src=images/Facebook-Icon.png width="60px" height="auto"></a>
+            <a target="_blank" href="https://twitter.com/"><img src=images/twittericon.jpg width="60px" height="auto"></a>
+            <a target="_blank" href="https://www.instagram.com/accounts/login/"><img src=images/instaicon.jpg width="60px" height="auto"></a>
+            <a target="_blank" href="https://www.linkedin.com/uas/login"><img src=images/linkedin.png width="60px" height="auto"></a>
+</div>
+    </div>
+    
+  <section>
+  <br><br><br><br><br><br><br>
+ 
+  </section>  
+  <section class="footer-section">
+  <div class="container">
+			<div class="footer-logo-text-center"><center><img src="images/logof.jpg"></center>
+				<a href="index.html"></a>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget about-widget">
+						<h2>About</h2>
+						<p>This is an <i> Acquisitor</i> store to help our customers buy the products through window shopping with fastest delivery</p>
+						<img src="img/cards.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget about-widget">
+						<h2>Questions</h2>
+						<ul>
+							<li><a href="aboutus.html"> About Us </a></li>
+							<li><a href="">Track Orders</a></li>
+							<li><a href=""> Returns </a></li>
+							<li><a href="">Jobs</a></li>
+							<li><a href="">Shipping</a></li>
+							<li><a href="">Blog</a></li>
+						</ul>
+						<ul>
+							<li><a href="">Partners</a></li>
+							<li><a href="">Bloggers</a></li>
+							<li><a href="">Support</a></li>
+							<li><a href="">Terms of Use</a></li>
+							<li><a href="">Press</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget contact-widget">
+						<h2>Questions</h2>
+						<div class="con-info">
+						
+							<p>Acquistor Company Ltd </p>
+						</div>
+						<div class="con-info">
+							
+							<p>410 Terry Ave N, Seattle, WA, United States</p>
+						</div>
+						<div class="con-info">
+							
+							<p>+53 345 7953 32453</p>
+						</div>
+						<div class="con-info">
+							
+							<p>office@AmulyaJ.R.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="social-links-warp">
+			<div class="container"><center>
+				<div class="social-links">
+					<a href="" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
+					<a href="" class="google-plus"><i class="fa fa-google-plus"></i><span>g+plus</span></a>
+					<a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+					<a href="" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
+					<a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
+					<a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
+          </center>
+				
+				</div>
+
+ 
+<p class="cc">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This  is made  <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https:amulya.com" target="_blank">Amulya J.R</a></p>
+
+
+			</div>
+		</div>
+	</section>
+ 
+
+ 
+  
+ 
+
+
+
+  <!--<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14376.077865872314!2d-73.879277264103!3d40.757667781624285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1546528920522" style="border:0" allowfullscreen></iframe></div>
+</div>-->
+
+
+
+
+<script>
+        function myfunction(){
+var name=document.getElementById("fname").value;  
+var num=document.getElementById("mobile").value;
+var email = document.getElementById("email").value;
+atpos = email.indexOf("@");
+dotpos = email.lastIndexOf(".");
+if (name==null || name==" "){  
+  alert("Name can't be blank");  
+  return false;  
+}
+
+else if (email == "" || atpos < 1 || ( dotpos - atpos < 2 )) 
+{
+alert("Please enter correct email ID");
+document.getElementById("email").focus() ;
+return false;
+}
+else
+  {alert("Your query has been submitted!!"); 
+ }
+ }
+ 
+ 
+           
+    </script>
+     
+
+   </body> 
+</html>

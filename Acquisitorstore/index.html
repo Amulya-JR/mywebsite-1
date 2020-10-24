@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <link rel="shortcut icon" href="images/logoc.jpg" type="image/x-icon">
+      
+    <title>ACQUISITOR</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="flaticon.css"/>
+</head>
+<body>
+
+ 
+
+<section class="head">
+  
+  
+
+      <nav class="topnav">
+        
+        <ul>
+          <!-- <li onclick="document.getElementById('id01').style.display='block'"><span class="fa fa-sign-in"></span> Login</li> -->
+          <li onclick="openlogin()" ><span class="fa fa-sign-in"></span> <b>Login</b></li>
+          <li onclick="opensignup()"><b>Signup</li>
+          <li><span class="fa fa-shopping-cart"></span></li>
+         
+        </ul>
+      </nav>
+    </section>
+    <section id="sec2">
+        <div class="site-logo">
+            <img src="images/logoc.jpg" alt="Logo">
+        </div>
+        <div class="site-name">
+            <h1>ACQUISITOR</h1>
+            <h2>ONLINE STORE</h2>
+        </div>
+        <div class="site-search">
+            <input type="text" placeholder="Search on Acquisitor....">
+            	
+            <img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png" alt="">
+        </div>
+    </section>
+     
+  <div class="menu" id="topnav">
+    
+       
+      <a href="contact.html">Contact Us</a>
+      <a href="aboutus.html">About</a>
+      
+      <div class="dropdown">
+    <button class="dropbtn">Categories
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      
+    </div>
+  </div>
+  
+  
+      <a href="index.html" class="active">Home</a>
+  </div>
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+ <div class="header">
+   
+  <!-- <h1>Welcome to  X Clothing</h1>
+  <p>Shopping made easy</p> -->
+
+  
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/slide1.jpg" style="width:100%">
+  <div class="text">Men Suits</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/slide2.jpg" style="width:100%">
+  <div class="text">Gowns</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/slide4.jpg" style="width:100%">
+  <div class="text">Sarees</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
+
+<div class="sep" >
+  <h1>LATEST PRODUCTS</h1></div>
+
+<div class="row">
+        <div class="column">
+            <img src="img/traddress1.jpg" width="200px" height="300px"> <a href="women.html">   <button class="button button" width="200px" height="300px">ANARKALI</button></a> </div>
+                
+                 <div class="column">
+            <img src="images/menp2.jpg" width="200px" height="300px"><a href="men.html">   <button class="button button" width="200px" height="300px">FORMALS</button></a>
+                </div>
+                <div class="column">
+            <img src="images/womenp1.jpg" width="200px" height="300px"><a href="women.html">  <button class="button button" width="200px" height="300px">PINK TOP</button></a>
+                </div>
+                <div class="column">
+            <img src="images/manp3.jpg" width="200px" height="300px"> <a href="men.html">  <button class="button button" width="200px" height="300px">DENIM</button></a>
+                </div>
+                 <div class="column">
+            <img src="images/womenp2.jpg" width="200px" height="300px"><a href="women.html">   <button class="button button" width="200px" height="300px">JUMPSUITS</button></a>
+                </div>
+                <div class="column">
+                  <img src="images/menk.jpg" width="200px" height="300px"><a href="men.html">   <button class="button button" width="200px" height="300px">KURTAS</button></a>
+           
+            
+                </div>
+                
+                
+                </div>  
+        
+            
+                <style>
+                  .column {
+  float: left;
+  width: 250px;
+    padding-right: 15px;
+  
+  
+    
+    
+}
+.row:after {
+     width: 45%;
+  content: "";
+  display: table;
+  clear: both;
+  margin-left: 30px;
+    
+}
+.column .img{
+    
+}
+.button {
+  border: none;
+    color: white;
+    padding: 10px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 85%;
+    float:left;
+    background-color:#0a97b0;
+}
+</style>
+  
+
+  
+  <div class="containers">
+    
+  <img src="images/bannermybg.jpg" style="width:100%";>
+  <a href="women.html"><button class="btn">Shop</button></a></div>
+  
+  <style>
+    /* Container needed to position the button. Adjust the width as needed */
+.containers {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+
+
+/* Style the button and place it in the middle of the container/image */
+.containers .btn {
+  position:absolute;
+  top: 50%;
+  left: 180px;
+  text-align:left;
+  background-color: hotpink;
+  color: white;
+  font-size: 20px;
+  padding:18px 20px 18px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius:75px;
+  width:160px;
+  
+}
+.containers h1 {
+  position:absolute;
+  top: 25%;
+  left: 16px;
+  text-align:left;
+  color: black;
+  
+  font-size: 20px;
+  padding:18px 20px 18px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius:75px;
+  width:160px;
+  
+}
+
+.containers .btn:hover {
+  background-color: black;
+}
+</style>
+  
+  
+
+
+
+
+<div id="id01" class="modal">
+  
+      <form class="modal-content" action="" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    
+   <center> <img src="images/loginicon.png">
+  </center>
+        </div>
+
+
+        <div class="container" style="margin:-3px";>
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="password"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" required>
+          
+        <label>
+        <input type="checkbox" checked="checked" name="remember" class="remember" style="margin-bottom:15px"> Remember me
+      </label>
+        
+          <button type="submit" class="loginbutton" onclick="validate()";document.getElementById('id01').style.display='none'">Login</button>
+
+        </div>
+        <div class="container">
+          <!--<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>-->
+          </div>
+       
+      </form>
+    </div> 
+     <div id="id02" class="modal">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <form class="modal-content" action="">
+        <div class="containere">
+        <h1>Sign Up</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <label for="password-repeat"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Confirm Password" name="password-repeat" required>
+
+        <label for="mobile_number"><b>Mobile Number</b></label>
+        <input type="number" placeholder="Mobile Number" name="mobile_number" required style="float:left";>
+        <br>
+        <br>
+       
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+
+          <div class="clearfix">
+            
+            <button type="submit" class="signupbtn" onclick="validatesign()";document.getElementById('id02').style.display='none'>Sign Up</button>
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+          </div>
+        </div>
+      </form>
+    </div>   
+<div >
+  
+    
+     
+</div>
+
+</div>
+</div>
+
+
+<section class="footer-section">
+  <div class="container">
+			<div class="footer-logo-text-center"><center><img src="images/logof.jpg"></center>
+				<a href="index.html"></a>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget about-widget">
+						<h2>About</h2>
+						<p>This is an <i> Acquisitor</i> store to help our customers buy the products through window shopping with fastest delivery</p>
+						<img src="img/cards.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget about-widget">
+						<h2>Questions</h2>
+						<ul>
+							<li><a href="aboutus.html"> About Us </a></li>
+							<li><a href="">Track Orders</a></li>
+							<li><a href=""> Returns </a></li>
+							<li><a href="">Jobs</a></li>
+							<li><a href="">Shipping</a></li>
+							<li><a href="">Blog</a></li>
+						</ul>
+						<ul>
+							<li><a href="">Partners</a></li>
+							<li><a href="">Bloggers</a></li>
+							<li><a href="">Support</a></li>
+							<li><a href="">Terms of Use</a></li>
+							<li><a href="">Press</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget contact-widget">
+						<h2>Questions</h2>
+						<div class="con-info">
+							
+							<p>Acquistor Company Ltd </p>
+						</div>
+						<div class="con-info">
+							
+							<p>Ave N, Seattle, WA, United States</p>
+						</div>
+						<div class="con-info">
+							
+							<p>+53 345 7953 32453</p>
+						</div>
+						<div class="con-info">
+							
+							<p>office@AmulyaJ.R.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="social-links-warp">
+			<div class="container">
+				<div class="social-links"><center>
+					<a href="" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
+					<a href="" class="google-plus"><i class="fa fa-google-plus"></i><span>g+plus</span></a>
+					<a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+					<a href="" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
+					<a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
+					<a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
+          </center>
+				
+				</div>
+
+ 
+<p class="cc">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This  is made  <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https:amulya.com" target="_blank">Amulya J.R</a></p>
+
+
+			</div>
+		</div>
+	</section>
+ 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+      
+var modal = document.getElementById('id01');
+var modal_1 = document.getElementById('id02');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    else if(event.target == modal_1) {
+        modal_1.style.display = "none";
+    }
+}
+
+
+
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>

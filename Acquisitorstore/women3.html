@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="shortcut icon" href="images/logoc.jpg" type="image/x-icon">
+      
+    <title>ACQUISITOR</title>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>E-Commerce Site</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+
+<style>
+.checked {
+   color: #ff5200;
+}
+.men1bg p{
+  font-family: 'DM Serif Text', serif;
+font-size:18px;
+}
+.wishlist{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  border: 1px solid #ececec;
+  box-shadow: 1px 1px 2px black;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  background-color:white;
+}
+</style>
+
+
+
+  </head>
+  <body class="men1bg">
+   <div>
+     <div class="img">
+     <img class="wmimg" src="images/women3.jpg"/></div>
+     <div class="matter">
+      <p class="name"><b>ANNI FASHION</b><br>Women's 
+      linen Saree
+       </p>
+      <p class="initpr">Rs.2,999</p>
+      <p class="fpr">Rs.1,799</p>
+      <p class="size">Sizes Available : S  M  L  XL  XXL</p>
+      <p>saree with blouse piece 100% synthetic 6 yards,ceremony wear,dry clean only</p>
+      <p class="del">Delivery By: Sep 15 - 20</p><br><br>
+      <h2>Star Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<div class="wishlist"><span class="fa fa-heart heart" onclick="heartred(0)"></span></div>
+      <button class="btncart">Add to cart</button>
+     </div>
+    
+   </div>
+    <span class="cross"><a href="women.html"><h2>X</h2></a></span>
+    <script>
+      function heartred(index){
+  var heart = document.getElementsByClassName("heart")[index];
+  // heart.classList.remove('fa fa-heart-o');
+  // heart.classList.add('fa fa-heart');
+  heart.style.color = "red";
+}
+</script>
+
+  </body>
+</html>
